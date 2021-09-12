@@ -1,0 +1,22 @@
+{
+  "name": "dynamic-fixtures",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate how to generate random fixtures with Cypress.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress.io",
+    "dynamic fixtures",
+    "fakerjs",
+    "frontend testing",
+    "javascript"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "faker": "^5.5.3"
+  }
+}
