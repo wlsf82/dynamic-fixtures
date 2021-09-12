@@ -1,6 +1,6 @@
 describe('Hacker Stories', () => {
   beforeEach(() => {
-    cy.generateFixtures()
+    cy.generateFixture()
 
     cy.intercept(
       'GET',

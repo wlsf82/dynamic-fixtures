@@ -1,4 +1,4 @@
-Cypress.Commands.add('generateFixtures', () => {
+Cypress.Commands.add('generateFixture', () => {
   const faker = require('faker')
 
   cy.writeFile('cypress/fixtures/stories.json', {
