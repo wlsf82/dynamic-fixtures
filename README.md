@@ -2,6 +2,8 @@
 
 Sample project to demonstrate how to generate random fixtures with [Cypress](https://cypress.io).
 
+> **Note:** There's also an [alternative branch](https://github.com/wlsf82/dynamic-fixtures/tree/alternative) without using fixtures, but instead, overwriting the request's response body directly using a custom command.
+
 ## Pre-requirements
 
 You need to have nodejs and npm installed to run this project.
