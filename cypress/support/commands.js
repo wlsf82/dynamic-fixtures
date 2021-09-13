@@ -1,8 +1,8 @@
-Cypress.Commands.add('generateFixture', () => {
+Cypress.Commands.add('generateNStories', n => {
   const faker = require('faker')
 
-  cy.writeFile('cypress/fixtures/stories.json', {
-    'hits': Cypress._.times(20, () => {
+  return {
+    'hits': Cypress._.times(n, () => {
       return {
         'title': `${faker.lorem.words(3)}`,
         'url': `${faker.internet.url()}`,
@@ -12,5 +12,5 @@ Cypress.Commands.add('generateFixture', () => {
         'objectID': `${faker.datatype.uuid()}`,
       }
     })
-  })
+  }
 })
